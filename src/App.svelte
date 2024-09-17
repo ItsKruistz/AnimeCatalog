@@ -52,7 +52,7 @@
           class="shrink-0 md:hidden"
           builders={[builder]}
         >
-          <Menu class="h-4.5 w-4.5"/>
+          <Menu class="w-5 h-5"/>
           <span class="sr-only">Toggle navigation menu</span>
         </Button>
       </Sheet.Trigger>
@@ -73,7 +73,7 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2.5 top-4.5 h-4.5 w-2.5" />
+          <Search class="text-muted-foreground absolute left-2.5 top-2.5 h-4 w-4" />
           <Input
             type="search"
             placeholder="Search products..."
@@ -89,7 +89,7 @@
             size="icon"
             class="rounded-full"
           >
-            <CircleUser />
+            <CircleUser class="w-5 h-5" />
             <span class="sr-only">Toggle user menu</span>
           </Button>
         </DropdownMenu.Trigger>
