@@ -29,19 +29,19 @@
         <span class="sr-only">Anime Catalog</span>
       </a>
       <a href="##" class="text-foreground hover:text-foreground transition-colors">
-        Dashboard
+        Home
       </a>
       <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
-        Orders
+        Anime
       </a>
       <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
-        Products
+        Manga
       </a>
       <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
-        Customers
+        Characters
       </a>
       <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
-        Analytics
+        Top Charts
       </a>
     </nav>
     <Sheet.Root>
@@ -60,24 +60,24 @@
         <nav class="grid gap-6 text-lg font-medium">
           <a href="##" class="flex items-center gap-1.5 text-lg font-semibold">
             <Package2 class="h-6 w-6" />
-            <span class="sr-only">Acme Inc</span>
+            <span class="sr-only">Anime Catalog</span>
           </a>
-          <a href="##" class="hover:text-foreground"> Dashboard </a>
-          <a href="##" class="text-muted-foreground hover:text-foreground"> Orders </a>
-          <a href="##" class="text-muted-foreground hover:text-foreground"> Products </a>
-          <a href="##" class="text-muted-foreground hover:text-foreground"> Customers </a>
-          <a href="##" class="text-muted-foreground hover:text-foreground"> Analytics </a>
+          <a href="##" class="hover:text-foreground"> Home </a>
+          <a href="##" class="text-muted-foreground hover:text-foreground"> Anime </a>
+          <a href="##" class="text-muted-foreground hover:text-foreground"> Manga </a>
+          <a href="##" class="text-muted-foreground hover:text-foreground"> Characters </a>
+          <a href="##" class="text-muted-foreground hover:text-foreground"> Top Charts </a>
         </nav>
       </Sheet.Content>
     </Sheet.Root>
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2.5 top-2.5 h-4 w-4" />
+          <Search class="text-muted-foreground absolute left-3 top-2.5 h-[18px] w-[18px]" />
           <Input
             type="search"
-            placeholder="Search products..."
-            class="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px]"
+            placeholder="Search animes or mangas..."
+            class="pl-9 sm:w-[300px] md:w-[200px] lg:w-[300px] rounded-full"
           />
         </div>
       </form>
