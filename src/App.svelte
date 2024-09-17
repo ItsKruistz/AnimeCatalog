@@ -26,7 +26,7 @@
     >
       <a href="##" class="flex items-center gap-2 text-lg font-semibold md:text-base">
         <Package2 class="h-6 w-6 ml-2" />
-        <span class="sr-only">Acme Inc</span>
+        <span class="sr-only">Anime Catalog</span>
       </a>
       <a href="##" class="text-foreground hover:text-foreground transition-colors">
         Dashboard
@@ -52,7 +52,7 @@
           class="shrink-0 md:hidden"
           builders={[builder]}
         >
-          <Menu class="h-5 w-5" />
+          <Menu class="h-4.5 w-4.5"/>
           <span class="sr-only">Toggle navigation menu</span>
         </Button>
       </Sheet.Trigger>
@@ -73,7 +73,7 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2.5 top-2.5 h-4 w-4" />
+          <Search class="text-muted-foreground absolute left-2.5 top-2.5 h-4.5 w-4.5" />
           <Input
             type="search"
             placeholder="Search products..."
