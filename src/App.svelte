@@ -20,12 +20,12 @@
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
-  <header class="bg-background sticky top-0 flex h-14 items-center gap-4 border-b px-2 md:px-4">
+  <header class="bg-background sticky top-0 flex h-14 items-center gap-2 border-b px-2 md:px-2">
     <nav
       class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6"
     >
       <a href="##" class="flex items-center gap-2 text-lg font-semibold md:text-base">
-        <Package2 class="h-6 w-6" />
+        <Package2 class="h-6 w-6 ml-2" />
         <span class="sr-only">Acme Inc</span>
       </a>
       <a href="##" class="text-foreground hover:text-foreground transition-colors">
@@ -58,7 +58,7 @@
       </Sheet.Trigger>
       <Sheet.Content side="left">
         <nav class="grid gap-6 text-lg font-medium">
-          <a href="##" class="flex items-center gap-2 text-lg font-semibold">
+          <a href="##" class="flex items-center gap-1.5 text-lg font-semibold">
             <Package2 class="h-6 w-6" />
             <span class="sr-only">Acme Inc</span>
           </a>
