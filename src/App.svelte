@@ -20,7 +20,7 @@
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
-  <header class="bg-background sticky top-0 flex h-14 items-center gap-4 border-b px-2.5 md:px-4">
+  <header class="bg-background sticky top-0 flex h-14 items-center gap-4 border-b px-2 md:px-4">
     <nav
       class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6"
     >
