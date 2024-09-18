@@ -5,7 +5,7 @@
   import CreditCard from "lucide-svelte/icons/credit-card";
   import DollarSign from "lucide-svelte/icons/dollar-sign";
   import Menu from "lucide-svelte/icons/menu";
-  import Package2 from "lucide-svelte/icons/package-2";
+  import Cat from "lucide-svelte/icons/cat";
   import Search from "lucide-svelte/icons/search";
   import Users from "lucide-svelte/icons/users";
 
@@ -20,12 +20,12 @@
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
-  <header class="bg-background sticky top-0 flex h-14 items-center gap-2 border-b px-2 md:px-2">
+  <header class="bg-background sticky top-0 flex h-14 md:h-12 items-center gap-2 border-b px-2 md:px-2">
     <nav
       class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6"
     >
       <a href="##" class="flex items-center gap-2 text-lg font-semibold md:text-base">
-        <Package2 class="h-6 w-6 ml-2" />
+        <Cat class="h-6 w-6 ml-2" />
         <span class="sr-only">Anime Catalog</span>
       </a>
       <a href="##" class="text-foreground hover:text-foreground transition-colors">
@@ -56,7 +56,7 @@
       <Sheet.Content side="left">
         <nav class="grid gap-6 text-lg font-medium">
           <a href="##" class="flex items-center gap-1.5 text-lg font-semibold">
-            <Package2 class="h-6 w-6" />
+            <Cat class="h-6 w-6" />
             <span class="sr-only">Anime Catalog</span>
           </a>
           <a href="##" class="hover:text-foreground"> Home </a>
@@ -69,11 +69,11 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2.5 top-[9px] h-[18px] w-[18px]" />
+          <Search class="text-muted-foreground absolute left-2.5 top-[9px] md:top-[7px] h-[18px] w-[18px]" />
           <Input
             type="search"
             placeholder="Search animes or mangas..."
-            class="pl-9 sm:w-[300px] md:w-[200px] lg:w-[300px]"
+            class="pl-9 sm:w-[300px] md:w-[280px] lg:w-[360px] md:h-8"
           />
         </div>
       </form>
