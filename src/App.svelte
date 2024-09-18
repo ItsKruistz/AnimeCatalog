@@ -40,9 +40,6 @@
       <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
         Characters
       </a>
-      <a href="##" class="text-muted-foreground hover:text-foreground transition-colors">
-        Top Charts
-      </a>
     </nav>
     <Sheet.Root>
       <Sheet.Trigger asChild let:builder>
@@ -66,7 +63,6 @@
           <a href="##" class="text-muted-foreground hover:text-foreground"> Anime </a>
           <a href="##" class="text-muted-foreground hover:text-foreground"> Manga </a>
           <a href="##" class="text-muted-foreground hover:text-foreground"> Characters </a>
-          <a href="##" class="text-muted-foreground hover:text-foreground"> Top Charts </a>
         </nav>
       </Sheet.Content>
     </Sheet.Root>
@@ -77,7 +73,7 @@
           <Input
             type="search"
             placeholder="Search animes or mangas..."
-            class="pl-9 sm:w-[300px] md:w-[200px] lg:w-[300px] rounded-full"
+            class="pl-9 sm:w-[300px] md:w-[200px] lg:w-[300px]"
           />
         </div>
       </form>
@@ -97,7 +93,6 @@
           <DropdownMenu.Label>My Account</DropdownMenu.Label>
           <DropdownMenu.Separator />
           <DropdownMenu.Item>Settings</DropdownMenu.Item>
-          <DropdownMenu.Item>Support</DropdownMenu.Item>
           <DropdownMenu.Separator />
           <DropdownMenu.Item>Logout</DropdownMenu.Item>
         </DropdownMenu.Content>
