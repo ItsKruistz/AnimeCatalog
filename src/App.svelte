@@ -69,7 +69,7 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-3 top-2.5 h-[18px] w-[18px]" />
+          <Search class="text-muted-foreground absolute left-2.5 top-[9px] h-[18px] w-[18px]" />
           <Input
             type="search"
             placeholder="Search animes or mangas..."
@@ -99,12 +99,12 @@
       </DropdownMenu.Root>
     </div>
   </header>
-  <main class="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
+  <main class="flex flex-1 flex-col gap-4 p-3.5 md:gap-6 md:p-6">
     <div class="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
       <Card.Root>
         <Card.Header class="flex flex-row items-center justify-between space-y-0 pb-2">
-          <Card.Title class="text-sm font-medium">Total Revenue</Card.Title>
-          <DollarSign class="text-muted-foreground h-4 w-4" />
+          <Card.Title class="text-lg font-semibold">Total Revenue</Card.Title>
+          <DollarSign class="text-muted-foreground h-5 w-5" />
         </Card.Header>
         <Card.Content>
           <div class="text-2xl font-bold">$45,231.89</div>
@@ -113,8 +113,8 @@
       </Card.Root>
       <Card.Root>
         <Card.Header class="flex flex-row items-center justify-between space-y-0 pb-2">
-          <Card.Title class="text-sm font-medium">Subscriptions</Card.Title>
-          <Users class="text-muted-foreground h-4 w-4" />
+          <Card.Title class="text-lg font-semibold">Subscriptions</Card.Title>
+          <Users class="text-muted-foreground h-5 w-5" />
         </Card.Header>
         <Card.Content>
           <div class="text-2xl font-bold">+2350</div>
@@ -123,8 +123,8 @@
       </Card.Root>
       <Card.Root>
         <Card.Header class="flex flex-row items-center justify-between space-y-0 pb-2">
-          <Card.Title class="text-sm font-medium">Sales</Card.Title>
-          <CreditCard class="text-muted-foreground h-4 w-4" />
+          <Card.Title class="text-lg font-sembold">Sales</Card.Title>
+          <CreditCard class="text-muted-foreground h-5 w-5" />
         </Card.Header>
         <Card.Content>
           <div class="text-2xl font-bold">+12,234</div>
@@ -133,8 +133,8 @@
       </Card.Root>
       <Card.Root>
         <Card.Header class="flex flex-row items-center justify-between space-y-0 pb-2">
-          <Card.Title class="text-sm font-medium">Active Now</Card.Title>
-          <Activity class="text-muted-foreground h-4 w-4" />
+          <Card.Title class="text-lg font-semibold">Active Now</Card.Title>
+          <Activity class="text-muted-foreground h-5 w-5" />
         </Card.Header>
         <Card.Content>
           <div class="text-2xl font-bold">+573</div>
