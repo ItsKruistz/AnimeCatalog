@@ -57,7 +57,7 @@ const config = {
 			fontFamily: {
 				sans: ['"Wanted Sans Std Variable", system-ui, sans-serif',
           {
-            fontFeatureSettings: '"calt", "clig", "locl", "ccmp", "ss07", "cv10", "cv11", "cv08"',
+            fontFeatureSettings: '"calt", "clig", "locl", "ccmp", "ss07", "cv08", "cv10", "cv11", "cv12"',
           },
         ],
 			},

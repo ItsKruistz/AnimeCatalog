@@ -150,7 +150,7 @@
           </div>
           <Button href="##" size="sm" class="ml-auto gap-1">
             View All
-            <ArrowUpRight class="h-4 w-4" />
+            <ArrowUpRight class="h-5 w-5" />
           </Button>
         </Card.Header>
         <Card.Content>
