@@ -20,7 +20,7 @@
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
-  <header class="bg-background sticky top-0 flex h-14 md:h-12 items-center gap-2 border-b px-2 md:px-2">
+  <header class="bg-background sticky top-0 flex h-12 md:h-12 items-center gap-2 border-b px-2 md:px-2">
     <nav
       class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6"
     >
@@ -73,7 +73,7 @@
           <Input
             type="search"
             placeholder="Search animes or mangas..."
-            class="pl-9 sm:w-[300px] md:w-[280px] lg:w-[360px]"
+            class="pl-9 md:pl-10 sm:w-[300px] md:w-[280px] lg:w-[360px]"
           />
         </div>
       </form>
