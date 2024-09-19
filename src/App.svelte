@@ -69,11 +69,11 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2.5 top-[9px] md:top-[7px] h-[18px] w-[18px]" />
+          <Search class="text-muted-foreground absolute left-2.5 top-2.5 md:top-2 h-4 w-4" />
           <Input
             type="search"
             placeholder="Search animes or mangas..."
-            class="pl-9 sm:w-[300px] md:w-[280px] lg:w-[360px] md:h-8"
+            class="pl-9 sm:w-[300px] md:w-[280px] lg:w-[360px]"
           />
         </div>
       </form>
