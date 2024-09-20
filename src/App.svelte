@@ -9,6 +9,7 @@
   import Search from "lucide-svelte/icons/search";
   import Users from "lucide-svelte/icons/users";
 
+  import * as Carousel from "$lib/components/ui/carousel/index.js"
   import * as Avatar from "$lib/components/ui/avatar/index.js";
   import { Badge } from "$lib/components/ui/badge/index.js";
   import { Button } from "$lib/components/ui/button/index.js";
@@ -52,7 +53,7 @@
           <span class="sr-only">Toggle navigation menu</span>
         </Button>
       </Sheet.Trigger>
-      <Sheet.Content side="left">
+      <Sheet.Content side="left" class="border-none">
         <nav class="grid gap-6 text-lg font-medium">
           <a href="##" class="flex items-center gap-1.5 text-lg font-semibold">
             <Cat class="h-6 w-6" />
