@@ -20,7 +20,7 @@
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
-  <header class="bg-background sticky top-0 flex h-14 md:h-12 items-center gap-2 border-b px-2 md:px-2">
+  <header class="bg-background sticky top-0 border-b flex h-14 md:h-12 items-center gap-2 md:gap-1.5 px-2">
     <nav
       class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
       <a href="##" class="flex items-center gap-2 text-lg font-semibold md:text-base">
@@ -148,7 +148,7 @@
             <Card.Title>Transactions</Card.Title>
             <Card.Description>Recent transactions from your store.</Card.Description>
           </div>
-          <Button href="##" size="sm" class="ml-auto gap-1">
+          <Button href="##" size="sm" variant="secondary" class="ml-auto gap-1">
             View All
             <ArrowUpRight class="h-5 w-5" />
           </Button>
