@@ -55,8 +55,7 @@
       </Sheet.Trigger>
       <Sheet.Content side="left" class="border-none">
         <nav class="grid gap-6 text-lg font-medium">
-          <a href="##" class="flex items-center gap-1.5 text-lg font-semibold">
-            <Cat class="h-6 w-6" />
+          <a href="##" class="flex items-center text-lg font-semibold">
             <span class="sr-only">Anime Catalog</span>
           </a>
           <a href="##" class="hover:text-foreground"> Home </a>
@@ -69,7 +68,7 @@
     <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
       <form class="ml-auto flex-1 sm:flex-initial">
         <div class="relative">
-          <Search class="text-muted-foreground absolute left-2 top-2 md:top-1.5 h-5 w-5" />
+          <Search class="text-muted-foreground absolute left-2 top-2 h-5 w-5" />
           <Input
             type="search"
             placeholder="Search animes or mangas..."
